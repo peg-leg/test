@@ -23,3 +23,30 @@ mybroadband.co.za##blockquote[data-quote="Bloomberg"]
 mybroadband.co.za##.structItem[data-author="Reuters"]
 mybroadband.co.za##article.message[data-author="Reuters"]
 mybroadband.co.za##blockquote[data-quote="Reuters"]
+
+! Kimberley Kersten
+mybroadband.co.za##.structItem[data-author="Kimberley Kersten"]
+mybroadband.co.za##article.message[data-author="Kimberley Kersten"]
+mybroadband.co.za##blockquote[data-quote="Kimberley Kersten"]
+
+! Daniel Puchert
+mybroadband.co.za##.structItem[data-author="Daniel Puchert"]
+mybroadband.co.za##article.message[data-author="Daniel Puchert"]
+mybroadband.co.za##blockquote[data-quote="Daniel Puchert"]
+
+! Newsday
+mybroadband.co.za##.structItem[data-author="Newsday"]
+mybroadband.co.za##article.message[data-author="Newsday"]
+mybroadband.co.za##blockquote[data-quote="Newsday"]
+
+! Shaun Jacobs
+mybroadband.co.za##.structItem[data-author="Shaun Jacobs"]
+mybroadband.co.za##article.message[data-author="Shaun Jacobs"]
+mybroadband.co.za##blockquote[data-quote="Shaun Jacobs"]
+
+! Daily Investor
+mybroadband.co.za##.structItem[data-author="Daily Investor"]
+mybroadband.co.za##article.message[data-author="Daily Investor"]
+mybroadband.co.za##blockquote[data-quote="Daily Investor"]
+
+
