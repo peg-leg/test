@@ -1,0 +1,4 @@
+! Block a user on one domain (posts, thread-list rows, quotes)
+mybroadband.co.za##article.message[data-author="Prometheus"]
+mybroadband.co.za##.structItem[data-author="maumau"]
+mybroadband.co.za##blockquote[data-quote="Hal 9000"]
