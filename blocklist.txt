@@ -1,4 +1,15 @@
 ! Block a user on one domain (posts, thread-list rows, quotes)
+! Prometheus
+mybroadband.co.za##.structItem[data-author="Prometheus"]
 mybroadband.co.za##article.message[data-author="Prometheus"]
+mybroadband.co.za##blockquote[data-quote="Prometheus"]
+
+! maumau
 mybroadband.co.za##.structItem[data-author="maumau"]
-mybroadband.co.za##blockquote[data-quote="Hal 9000"]
+mybroadband.co.za##article.message[data-author="maumau"]
+mybroadband.co.za##blockquote[data-quote="maumau"]
+
+! HAL 9000
+mybroadband.co.za##.structItem[data-author="HAL 9000"]
+mybroadband.co.za##article.message[data-author="HAL 9000"]
+mybroadband.co.za##blockquote[data-quote="HAL 9000"]
