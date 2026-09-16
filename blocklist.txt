@@ -1,52 +1,56 @@
-! Block a user on one domain (posts, thread-list rows, quotes)
-! Hanno Labuschagne
-mybroadband.co.za##.structItem[data-author="Hanno Labuschagne"]
-mybroadband.co.za##article.message[data-author="Hanno Labuschagne"]
-mybroadband.co.za##blockquote[data-quote="Hanno Labuschagne"]
+! Title: XenTools blocklist
+! Generated: 2026-09-16T12:48:07.676Z
 
-! Bianke Neethling
-mybroadband.co.za##.structItem[data-author="Bianke Neethling"]
-mybroadband.co.za##article.message[data-author="Bianke Neethling"]
-mybroadband.co.za##blockquote[data-quote="Bianke Neethling"]
+! ===== Thread Hider =====
+! mybroadband.co.za: DStv
+mybroadband.co.za##.structItem-title:has-text(/DStv/i):upward(.structItem)
+mybroadband.co.za##a.discussionListItemTitle:has-text(/DStv/i):upward(.discussionListItem)
+! mybroadband.co.za: Multichoice
+mybroadband.co.za##.structItem-title:has-text(/Multichoice/i):upward(.structItem)
+mybroadband.co.za##a.discussionListItemTitle:has-text(/Multichoice/i):upward(.discussionListItem)
 
-! Kirsten Minnaar
-mybroadband.co.za##.structItem[data-author="Kirsten Minnaar"]
-mybroadband.co.za##article.message[data-author="Kirsten Minnaar"]
-mybroadband.co.za##blockquote[data-quote="Kirsten Minnaar"]
-
-! Bloomberg
-mybroadband.co.za##.structItem[data-author="Bloomberg"]
-mybroadband.co.za##article.message[data-author="Bloomberg"]
-mybroadband.co.za##blockquote[data-quote="Bloomberg"]
-
-! Reuters
-mybroadband.co.za##.structItem[data-author="Reuters"]
-mybroadband.co.za##article.message[data-author="Reuters"]
-mybroadband.co.za##blockquote[data-quote="Reuters"]
-
-! Kimberley Kersten
-mybroadband.co.za##.structItem[data-author="Kimberley Kersten"]
-mybroadband.co.za##article.message[data-author="Kimberley Kersten"]
-mybroadband.co.za##blockquote[data-quote="Kimberley Kersten"]
-
-! Daniel Puchert
-mybroadband.co.za##.structItem[data-author="Daniel Puchert"]
-mybroadband.co.za##article.message[data-author="Daniel Puchert"]
+! ===== User Hider =====
+! mybroadband.co.za: Benedict A55h0le not
+mybroadband.co.za##[data-author="Benedict A55h0le not"]
+mybroadband.co.za##blockquote[data-quote="Benedict A55h0le not"]
+! mybroadband.co.za: Daniel Puchert
+mybroadband.co.za##[data-author="Daniel Puchert"]
 mybroadband.co.za##blockquote[data-quote="Daniel Puchert"]
-
-! Newsday
-mybroadband.co.za##.structItem[data-author="Newsday"]
-mybroadband.co.za##article.message[data-author="Newsday"]
+! mybroadband.co.za: Seth Thorne
+mybroadband.co.za##[data-author="Seth Thorne"]
+mybroadband.co.za##blockquote[data-quote="Seth Thorne"]
+! mybroadband.co.za: Newsday
+mybroadband.co.za##[data-author="Newsday"]
 mybroadband.co.za##blockquote[data-quote="Newsday"]
+! mybroadband.co.za: Kimberley Kersten
+mybroadband.co.za##[data-author="Kimberley Kersten"]
+mybroadband.co.za##blockquote[data-quote="Kimberley Kersten"]
+! mybroadband.co.za: Reuters
+mybroadband.co.za##[data-author="Reuters"]
+mybroadband.co.za##blockquote[data-quote="Reuters"]
+! mybroadband.co.za: Smiggles
+mybroadband.co.za##[data-author="Smiggles"]
+mybroadband.co.za##blockquote[data-quote="Smiggles"]
+! mybroadband.co.za: Weedfeeder
+mybroadband.co.za##[data-author="Weedfeeder"]
+mybroadband.co.za##blockquote[data-quote="Weedfeeder"]
+! mybroadband.co.za: TheMightyQuin
+mybroadband.co.za##[data-author="TheMightyQuin"]
+mybroadband.co.za##blockquote[data-quote="TheMightyQuin"]
+! mybroadband.co.za: DonaldTrump
+mybroadband.co.za##[data-author="DonaldTrump"]
+mybroadband.co.za##blockquote[data-quote="DonaldTrump"]
+! mybroadband.co.za: Kirsten Minnaar
+mybroadband.co.za##[data-author="Kirsten Minnaar"]
+mybroadband.co.za##blockquote[data-quote="Kirsten Minnaar"]
+! mybroadband.co.za: NarrowBandFtw
+mybroadband.co.za##[data-author="NarrowBandFtw"]
+mybroadband.co.za##blockquote[data-quote="NarrowBandFtw"]
 
-! Shaun Jacobs
-mybroadband.co.za##.structItem[data-author="Shaun Jacobs"]
-mybroadband.co.za##article.message[data-author="Shaun Jacobs"]
-mybroadband.co.za##blockquote[data-quote="Shaun Jacobs"]
-
-! Daily Investor
-mybroadband.co.za##.structItem[data-author="Daily Investor"]
-mybroadband.co.za##article.message[data-author="Daily Investor"]
-mybroadband.co.za##blockquote[data-quote="Daily Investor"]
-
-
+! ===== Hide user in thread =====
+! mybroadband.co.za: Jean Claude Vaaldamme in F1 2026
+mybroadband.co.za##html:has(link[rel="canonical"][href*="/forum/threads/f1-2026.1328804/"]) [data-author="Jean Claude Vaaldamme"]
+mybroadband.co.za##html:has(link[rel="canonical"][href*="/forum/threads/f1-2026.1328804/"]) blockquote[data-quote="Jean Claude Vaaldamme"]
+! mybroadband.co.za: Splinter in Honda Elevate vs Suzuki Grand Vitara
+mybroadband.co.za##html:has(link[rel="canonical"][href*="/forum/threads/honda-elevate-vs-suzuki-grand-vitara.1331566/"]) [data-author="Splinter"]
+mybroadband.co.za##html:has(link[rel="canonical"][href*="/forum/threads/honda-elevate-vs-suzuki-grand-vitara.1331566/"]) blockquote[data-quote="Splinter"]
